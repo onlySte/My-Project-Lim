@@ -1,0 +1,90 @@
+  /* immagine di sfondo */
+
+  body {
+      background-image: url(sfondi/background-lim.jpg);
+      background-size: cover;
+      background-position: center;
+
+  }
+
+  /* contenitore della pagina */
+
+  #contenitore {
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      height: 780px;
+
+
+  }
+
+  /* sezione Header */
+
+  header {
+      text-align: center;
+
+
+  }
+
+  header>img {
+      width: 150px;
+  }
+
+  header>h1 {
+      color: rgb(52, 227, 8);
+  }
+
+  /* sezione nav */
+
+  nav {
+      margin: 30px;
+
+  }
+
+  nav>div {
+      background-color: rgb(52, 227, 8);
+      padding: 10px;
+      text-align: center;
+
+  }
+
+  .btn {
+      cursor: pointer;
+      border: none;
+  }
+
+  /* sezione main */
+
+  main {
+      color: white;
+      margin: 30px;
+
+  }
+
+  section>h2 {
+      display: inline-block;
+
+  }
+
+  /* stato batteria */
+
+  #carica-gialla {
+
+      background-color: rgb(236, 236, 19);
+      width: 45%;
+      padding: 10px;
+  }
+
+  #carica-verde {
+      background-color: rgb(52, 227, 8);
+      width: 75%;
+      padding: 10px;
+  }
+
+  #carica-rossa {
+      background-color: rgb(236, 16, 16);
+      width: 20%;
+      padding: 10px;
+
+  }
